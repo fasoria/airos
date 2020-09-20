@@ -42,8 +42,8 @@ function ENVIAR(){
   
   var options = {
    useSSL: false,
-    userName: "crisfabri24@gmail.com",
-    password: "123456789",
+    userName: "skillet776@yahoo.com",
+    password: "1993orellana768",
     onSuccess:onConnect,
     onFailure:doFail
   }
@@ -55,9 +55,9 @@ function ENVIAR(){
   function onConnect() {
     // Once a connection has been made, make a subscription and send a message.
     console.log("Conectado...");
-    client.subscribe("crisfabri24@gmail.com/pagina");
+    client.subscribe("skillet776@yahoo.com/test1");
     message = new Paho.MQTT.Message("hola desde la web");
-    message.destinationName = "crisfabri24@gmail.com/proteus";
+    message.destinationName = "skillet776@yahoo.com/test";
     client.send(message);
 
 	
