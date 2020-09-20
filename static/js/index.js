@@ -1,36 +1,3 @@
-/*function ACTIVAR() {
-	
-	console.log("ACTIVAR");
-        message = new Paho.MQTT.Message("ACTIVADO");
-        message.destinationName = "menalyluzuriaga@gmail.com/test1";
-        client.send(message);
-		
-		        
-  
-}
-function DESACTIVAR(){	
-	
-	
-	console.log("DESACTIVAR");
-        message = new Paho.MQTT.Message("DESACTIVADO");
-        message.destinationName = "menalyluzuriaga@gmail.com/test1";
-        client.send(message);
-	
-		
-}
-function ENVIAR(){	
-	
-		console.log("ENVIAR");
-		H=document.getElementById("hora").value
-        message = new Paho.MQTT.Message(H);
-        message.destinationName = "menalyluzuriaga@gmail.com/test1";
-        client.send(message);
-		document.getElementById("estado").innerHTML="Activado"
-		
-}*/
-
-
-
 // Create a client instance
   //client = new Paho.MQTT.Client("postman.cloudmqtt.com", 14970);
   
