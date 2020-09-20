@@ -22,7 +22,7 @@
     console.log("Conectado...");
     client.subscribe("skillet776@yahoo.com/test");
     message = new Paho.MQTT.Message("hola desde la web");
-    message.destinationName = "crisfabri24@gmail.com/test1";
+    message.destinationName = "skillet776@yahoo.com/test1";
     client.send(message);
 
 	
